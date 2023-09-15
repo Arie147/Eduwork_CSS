@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello World</title>
+  <style>
+    * {
+      font-family: Arial;
+      margin: 0;
+      padding: 0;
+    }
+
+    .display {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-top: 100px;
+      gap: 120px;
+    }
+
+    .text {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+    }
+
+    .title p {
+      font-weight: 800;
+      font-size: 50px;
+      line-height: 50px;
+    }
+
+    hr {
+      height: 4px;
+      background-color: rgb(236, 236, 0);
+      border: none;
+      width: 18%;
+      margin-top: 25px;
+      margin-bottom: 35px;
+    }
+
+    .description p {
+      font-weight: 800;
+      font-size: 14px;
+    }
+
+    .details_1 p {
+      font-size: 10px;
+      margin-top: 10px;
+      margin-bottom: 12px;
+      line-height: 16px;
+    }
+
+    .details_2 p {
+      font-size: 10px;
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      background-color: rgb(236, 236, 0);
+      border: none;
+      padding: 8px 14px;
+      font-weight: bold;
+      font-size: 10px;
+    }
+
+    img {
+      width: 300px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="display">
+    <div class="text">
+      <div class="title">
+        <p>Hello <br> world!</p>
+      </div>
+      <hr>
+      <div class="description">
+        <p>Huzzah! We're up and running.</p>
+      </div>
+      <div class="details_1">
+        <p>If you're using the live-reload server, whenever you update <br>
+          anything in the html, css, and js files, this page will <br>
+          automatically refresh.</p>
+      </div>
+      <div class="details_2">
+        <p>How cool is that?!</p>
+      </div>
+      <div class="install">
+        <button class="btn">
+          Download this starter from Github
+        </button>
+      </div>
+    </div>
+    <div class="image">
+      <img src="images/header.jpg" alt="mountain">
+    </div>
+  </div>
+</body>
+
+</html>
